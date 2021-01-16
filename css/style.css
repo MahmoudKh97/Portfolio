@@ -1,0 +1,63 @@
+body
+{
+ overflow: hidden;   
+ font-family: 'Raleway', san-serif;
+ font-size: 110%;
+
+}
+
+#PageContainer
+{
+    height: 100vh;
+}
+.bd-highlight {
+    background-color: rgba(222,222,222,.15);
+    border: 1px solid rgba(222,222,222,.15);
+}
+
+#MenuContainer
+{
+    min-width:300px;
+    max-width:300px;
+    background-color: #121212;
+
+}
+
+#ContentContainer
+{
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#ContentContainer section
+{
+    min-height: 100vh;
+}
+
+#SectionHome {
+	background-image: url("../img/pic.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	 background-attachment: fixed;
+}
+
+#SectionHome > div {
+	height: 100vh;
+	background-color: rgba(22,22,22,.6);
+}
+
+#SectionHome .TypedHome {
+
+	border-bottom: 2px solid maroon;
+	font-size: 130%;
+	padding-bottom: 4px;
+}
+
+
+.border-5
+{
+    border-width: 10px;
+    border-style: solid;
+}
